@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Anatomy of a Biological Neuron</title>
+    <title>The Neural Decision Process</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -41,45 +41,6 @@
             height: auto;
             border-radius: 5px;
         }
-        .vocab-section, .why-it-matters, .test-your-knowledge, .faq-section {
-            padding: 20px;
-            border-radius: 8px;
-            margin-top: 20px;
-        }
-        .vocab-section {
-            background-color: #f0f8ff;
-        }
-        .vocab-section h3 {
-            color: #1e90ff;
-            font-size: 0.75em;
-            margin-bottom: 5px;
-            margin-top: 5px;
-        }
-        .vocab-section h4 {
-            color: #000;
-            font-size: 0.9em;
-            margin-top: 10px;
-            margin-bottom: 8px;
-        }
-        .vocab-term {
-            font-weight: bold;
-            color: #1e90ff;
-        }
-        .why-it-matters {
-            background-color: #ffe6f0;
-        }
-        .why-it-matters h3 {
-            color: #d81b60;
-            font-size: 0.75em;
-            margin-bottom: 5px;
-            margin-top: 5px;
-        }
-        .why-it-matters h4 {
-            color: #000;
-            font-size: 0.9em;
-            margin-top: 10px;
-            margin-bottom: 8px;
-        }
         .test-your-knowledge {
             background-color: #e6ffe6; /* Light green background */
         }
@@ -110,21 +71,6 @@
             border: none;
             font-size: 1em;
         }
-        .faq-section {
-            background-color: #fffbea; /* Light yellow background */
-        }
-        .faq-section h3 {
-            color: #ffcc00; /* Bright yellow heading */
-            font-size: 0.75em;
-            margin-bottom: 5px;
-            margin-top: 5px;
-        }
-        .faq-section h4 {
-            color: #000;
-            font-size: 0.9em;
-            margin-top: 10px;
-            margin-bottom: 8px;
-        }
         .continue-button {
             display: inline-block;
             padding: 10px 20px;
@@ -139,85 +85,45 @@
 </head>
 <body>
 
-    <!-- Section 1: Lesson Introduction -->
+    <!-- Section 1: Introduction -->
     <section id="section1">
-        <h1>Anatomy of a Biological Neuron</h1>
-
-        <p>A typical neuron consists of three main parts: the <strong>dendrites</strong>, the <strong>cell body</strong> (or <strong>soma</strong>), and the <strong>axon</strong>.</p>
+        <h1>The Neural Decision Process</h1>
+        <p>Imagine you're at a party, trying to decide whether to join a conversation. You might weigh several factors: How many people you know in the group, how interesting the topic sounds, how tired you are. A neuron does something surprisingly similar when deciding whether to fire!</p>
         <div class="continue-button" onclick="showNextSection(2)">Continue</div>
     </section>
 
-    <!-- Section 2: Dendrites -->
+    <!-- Section 2: Interactive Placeholder -->
     <section id="section2">
-        <p>The <strong>dendrites</strong> are branching extensions that receive incoming signals from other neurons.</p>
-        <div class="image-placeholder">
-            <img src="images/dendrites.png" alt="Image highlights the dendrites on the neuron diagram, showing connections from neighboring neurons.">
+        <div class="interactive-placeholder">
+            <img src="/placeholder.svg?height=300&width=500" alt="Animation showing signal flow through a neuron with adjustable input strengths">
         </div>
         <div class="continue-button" onclick="showNextSection(3)">Continue</div>
     </section>
 
-    <!-- Section 3: Cell Body -->
+    <!-- Section 3: Additional Content -->
     <section id="section3">
-        <p>These signals are then transmitted to the <strong>cell body</strong>, where they are integrated.</p>
+        <p>Let's see this process in action. When signals arrive at a neuron's dendrites, they're like votes either for or against firing. Some signals say 'fire!' (excitatory), while others say 'stay quiet' (inhibitory). The neuron adds up all these votes, and if they exceed a certain threshold – bang! The neuron fires, sending an electrical pulse racing down its axon.</p>
         <div class="continue-button" onclick="showNextSection(4)">Continue</div>
     </section>
 
-    <!-- Section 4: Action Potential -->
+    <!-- Section 4: Test Your Knowledge -->
     <section id="section4">
-        <p>If the combined signal is strong enough, the neuron generates an electrical impulse called an <strong>action potential</strong>.</p>
-        <div class="vocab-section">
-            <h3>Build Your Vocab</h3>
-            <h4>Action Potential</h4>
-            <p>An action potential is a rapid rise and fall in electrical membrane potential that transmits signals along the neuron's axon.</p>
-        </div>
-        <div class="continue-button" onclick="showNextSection(5)">Continue</div>
-    </section>
-
-    <!-- Section 5: Axon -->
-    <section id="section5">
-        <p>The <strong>axon</strong> is a long, slender projection that carries the action potential away from the cell body toward other neurons.</p>
-        <div class="image-placeholder">
-            <img src="images/axon.png" alt="Image shows the axon extending from the cell body, with the action potential traveling along it.">
-        </div>
-        <div class="continue-button" onclick="showNextSection(6)">Continue</div>
-    </section>
-
-    <!-- Section 6: Synaptic Terminals -->
-    <section id="section6">
-        <p>At the end of the axon are the <strong>synaptic terminals</strong>, where the neuron communicates with other neurons via chemical messengers called neurotransmitters.</p>
-        <div class="continue-button" onclick="showNextSection(7)">Continue</div>
-    </section>
-
-    <!-- Section 7: Neuronal Communication -->
-    <section id="section7">
-        <p>This process allows neurons to communicate and form complex networks that underlie all brain functions.</p>
-        <div class="why-it-matters">
-            <h3>Why It Matters</h3>
-            <p>Understanding the structure and function of biological neurons provides insights into how our brains process information and how we can model these processes in artificial systems.</p>
-        </div>
-        <div class="continue-button" onclick="showNextSection(8)">Continue</div>
-    </section>
-
-    <!-- Section 8: Test Your Knowledge -->
-    <section id="section8">
         <div class="test-your-knowledge">
             <h3>Test Your Knowledge</h3>
-            <h4>Which part of the neuron is responsible for receiving signals from other neurons?</h4>
+            <h4>Which of these best describes how a neuron processes information?</h4>
             <p>
-                <label><input type="radio" name="neuron-part" value="Axon"> Axon</label><br>
-                <label><input type="radio" name="neuron-part" value="Dendrites"> Dendrites</label><br>
-                <label><input type="radio" name="neuron-part" value="Synaptic terminals"> Synaptic terminals</label><br>
-                <label><input type="radio" name="neuron-part" value="Cell body"> Cell body</label><br>
+                <label><input type="radio" name="neuron-process" value="option1"> It fires randomly when stimulated</label><br>
+                <label><input type="radio" name="neuron-process" value="option2"> It sums up input signals and fires if they exceed a threshold</label><br>
+                <label><input type="radio" name="neuron-process" value="option3"> It fires continuously regardless of input</label>
             </p>
             <button class="check-button" onclick="checkAnswer()">Check</button>
 
             <div id="result" style="display: none; margin-top: 10px; color: #28a745; font-weight: bold;">Correct!</div>
             <div id="explanation" style="display: none; margin-top: 10px;">
                 <h4>Explanation</h4>
-                <p>The correct answer is <strong>Dendrites</strong>.<br>Dendrites receive incoming signals from other neurons.</p>
+                <p id="explanation-text"></p>
             </div>
         </div>
-        
     </section>
 
     <script>
@@ -247,19 +153,24 @@
 
         // Function to check the selected answer in Test Your Knowledge
         function checkAnswer() {
-            const selectedAnswer = document.querySelector('input[name="neuron-part"]:checked');
+            const selectedAnswer = document.querySelector('input[name="neuron-process"]:checked');
             const result = document.getElementById("result");
             const explanation = document.getElementById("explanation");
+            const explanationText = document.getElementById("explanation-text");
             const checkButton = document.querySelector(".check-button");
 
             if (selectedAnswer) {
                 checkButton.style.display = "none"; // Hide the check button after clicking
 
-                if (selectedAnswer.value === "Dendrites") {
+                if (selectedAnswer.value === "option2") {
                     result.style.display = "block"; // Show "Correct!" if the correct answer is selected
-                } else {
-                    explanation.style.display = "block"; // Show explanation if the answer is incorrect
+                    explanationText.textContent = "Exactly! This fundamental principle inspired the design of artificial neurons.";
+                } else if (selectedAnswer.value === "option1") {
+                    explanationText.textContent = "Neurons are actually quite precise in their firing decisions!";
+                } else if (selectedAnswer.value === "option3") {
+                    explanationText.textContent = "Neurons are more sophisticated than that – they make decisions based on their inputs.";
                 }
+                explanation.style.display = "block"; // Show explanation for all answers
             }
         }
     </script>
